@@ -24,6 +24,7 @@ Your images never leave your machine.
 ## Download
 
 Download the latest version from GitHub Releases.
+[GitHub Releases](https://github.com/noboru-takahashi/SafeHEIC/releases)
 
 ## Usage
 
@@ -77,6 +78,7 @@ SafeHEIC は Windows PC 上でローカル変換を行います。
 ## ダウンロード
 
 最新版は GitHub Releases から取得できます。
+[GitHub Releases](https://github.com/noboru-takahashi/SafeHEIC/releases)
 
 ## 使い方
 

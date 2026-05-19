@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family:
+        "Segoe UI",
+        "Yu Gothic UI",
+        sans-serif;
+
+    background: #f5f7fa;
+    color: #1f2933;
+}
+
+.hero {
+    background: white;
+    padding: 80px 20px 60px;
+    border-bottom: 1px solid #d0d7de;
+}
+
+.hero-inner {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+    width: 96px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.tagline {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #1f6feb;
+}
+
+.sub {
+    margin-top: 12px;
+    color: #6b7280;
+    font-size: 18px;
+}
+
+.buttons {
+    margin-top: 40px;
+}
+
+.button {
+    display: inline-block;
+
+    margin: 10px;
+    padding: 14px 24px;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+    font-weight: 600;
+
+    transition: 0.2s;
+}
+
+.button.primary {
+    background: #1f6feb;
+    color: white;
+}
+
+.button.primary:hover {
+    background: #1657c5;
+}
+
+.button.secondary {
+    background: white;
+    color: #1f2933;
+
+    border: 1px solid #c9d1d9;
+}
+
+.button.secondary:hover {
+    background: #eef2f6;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.screenshot-section {
+    text-align: center;
+}
+
+.screenshot {
+    width: 100%;
+    max-width: 960px;
+
+    border-radius: 16px;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.08);
+}
+
+.features {
+    margin-top: 70px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+    gap: 20px;
+}
+
+.feature-card {
+    background: white;
+
+    padding: 28px;
+
+    border-radius: 16px;
+
+    box-shadow:
+        0 4px 16px rgba(0,0,0,0.05);
+}
+
+.feature-card h2 {
+    margin-top: 0;
+    color: #1f6feb;
+}
+
+.usage {
+    margin-top: 70px;
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 16px;
+
+    box-shadow:
+        0 4px 16px rgba(0,0,0,0.05);
+}
+
+.usage h2 {
+    margin-top: 0;
+}
+
+.usage li {
+    margin-bottom: 14px;
+    line-height: 1.6;
+}
+
+footer {
+    margin-top: 80px;
+
+    padding: 24px;
+
+    text-align: center;
+
+    color: #6b7280;
+    font-size: 14px;
+}
